@@ -14,7 +14,7 @@ const PORT = process.env.PORT
 // ADD CORS
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? 'https://your-netlify-url.netlify.app'  // Frontend URL
+        ? 'https://mern-basic.netlify.app'
         : 'http://localhost:3000',
     credentials: true
 }))
